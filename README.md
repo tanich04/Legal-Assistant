@@ -1,6 +1,7 @@
 # SPECTER Legal Assistant
 
-SPECTER is an AI-powered legal assistant that automates the generation of First Information Reports (FIRs) and delivers them to users via WhatsApp using Twilio. It also provides legal query handling using advanced language models.
+SPECTER is an AI-powered legal assistant that automates the generation of First Information Reports (FIRs) and delivers them to users via WhatsApp using Twilio.
+It also provides AI/NLP-powered legal query handling to help users get quick legal assistance.
 
 ## Features
 - WhatsApp-based legal assistance
@@ -9,16 +10,11 @@ SPECTER is an AI-powered legal assistant that automates the generation of First 
 - AI/NLP-powered legal query responses
 - Modular FastAPI backend
 
-## Project Structure
-- `specter_legal_assistant/` - Main backend code
-- `requirements.txt` - Python dependencies
-- `static/` - Directory for generated PDFs
-
 ## Setup Instructions
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Ak47shat/SPECTER.git
-   cd SPECTER
+   git clone https://github.com/tanich04/Legal-Assistant.git
+   cd Legal-Assistant
    ```
 2. **Install dependencies:**
    ```bash
@@ -33,7 +29,7 @@ SPECTER is an AI-powered legal assistant that automates the generation of First 
 5. **Expose your server (for WhatsApp integration):**
    - Use [ngrok](https://ngrok.com/) or similar to create a public URL.
 
-## Usage
+## Humanized Workflow
 - Send `/fir name: <Name>, location: <Location>, details: <Details>` via WhatsApp to the configured Twilio number.
 - For other legal queries, send a message directly.
 
