@@ -1,6 +1,6 @@
-# SPECTER Legal Assistant
+# Legal Assistant
 
-SPECTER is an AI-powered legal assistant that automates the generation of First Information Reports (FIRs) and delivers them to users via WhatsApp using Twilio.
+An AI-powered legal assistant that automates the generation of First Information Reports (FIRs) and delivers them to users via WhatsApp using Twilio.
 It also provides AI/NLP-powered legal query handling to help users get quick legal assistance.
 
 ## Features
